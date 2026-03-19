@@ -1,4 +1,0 @@
-ต้องการสร้าง website resume 
-1. landing page โดย react vite + typescript + tailwindcss
-2. ประกอบด้วย ชื่อ-นามสกุล, รูปประจำตัว, ตำแหน่ง developer, profile, technical skill, tools, work experience, education 
-3. สีที่ใช้ใน website โทนสี  25316D 5F6F94 97D2EC FEF5AC
