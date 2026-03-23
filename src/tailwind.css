@@ -3,9 +3,29 @@
 
 @theme {
   --color-white: #FFFFFF;
-  --color-navy: #25316D;
-  --color-steel: #5F6F94;
+  /* --color-navy: #25316D; */
+  --color-navy: #0C2C55;
+  --color-navy-fade: #296374;
+  --color-steel: #5F6F94; /*เปลี่ยน*/
+  --color-steel: #9C9CA8;
   --color-sky: #97D2EC;
   --color-cream: #FEF5AC;
   --font-family-sans: "Inter", sans-serif;
+
+  /* Gradient palette */
+  --color-grad-deep: #061E29;
+  --color-grad-mid: #1D546D;
+  --color-grad-light: #5F9598;
+}
+
+@layer utilities {
+  .bg-gradient-main {
+    background: linear-gradient(135deg, #061E29 0%, #1D546D 55%, #5F9598 100%);
+  }
+  .bg-gradient-main-y {
+    background: linear-gradient(180deg, #061E29 0%, #1D546D 55%, #5F9598 100%);
+  }
+  .bg-gradient-main-subtle {
+    background: linear-gradient(135deg, #061E29 0%, #1D546D 100%);
+  }
 }
